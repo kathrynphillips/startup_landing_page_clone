@@ -62,6 +62,7 @@ div {
 	height: 70px;
 	margin: 0 auto;
 	padding: 0px 15px;
+	position: fixed;
 }
 .top-navigation .logo {
 	height: 70px;
@@ -102,7 +103,7 @@ html .introduction {
 	width: 970px;
 	padding: 0px 15px;
 }
-.introduction h1, h3 {
+.introduction h1, h3, p {
 	color: white;
 	font-weight: lighter;
 	text-align: center;
@@ -125,4 +126,12 @@ body {
 	border-radius: 4px;
 	padding: 16px 26px;
 	line-height: 1.33;
+}
+.cases .devices {
+	width: 33.3333333%;
+	display: inline-block;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
 }
